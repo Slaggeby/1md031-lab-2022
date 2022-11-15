@@ -1,1 +1,114 @@
-/*empty*/
+@import url("reset.css");
+
+
+
+@font-face {
+    font-family: Spongeboy;
+    src: url("SpongeboyMeBob.ttf");
+}
+  
+
+body {
+    font-family: "Spongeboy";
+    font-size: 12pt;
+color: #fff56c ;
+    background-image: url("wp2636472-background-spongebob.jpg");
+background-attachment: fixed;
+ }
+
+
+    
+.Allergier {
+   color: #fff56c;
+}
+
+#Allergierid {
+   font-weight: bold;
+
+}
+
+header{
+   width: 95%;
+   height: 10%;
+margin:  20px 20px 20px 20px;
+padding:  20px 20px 20px 20px;
+display: inline-block;
+position: absolute 20px;
+
+
+
+}
+
+
+header > h1{
+   position:  absolute;
+margin-top: -120px;
+padding: 50px 50px;
+color: #fff56c;
+
+
+}
+
+.wrapper{
+display: grid;
+     grid-gap: 10px;
+     grid-template-columns: 33% 33% 33%;
+}
+
+
+
+
+.Headerbild{
+
+
+width: 100%;
+height: 100px;
+object-fit: fill;
+opacity: 0.8;
+}
+
+
+
+.divs{
+margin:  10px 20px 20px 20px;
+padding:  20px 20px 20px 20px;
+display: inline-block;
+border: 10px solid #fff56c;
+background-color: #26b9c8;
+
+}
+
+
+.BB {
+   background-color:#0457a0
+   ;
+   color: #aead0d;
+   border: 10px solid #aead0d;
+
+}
+#BBid{
+
+   color: #aead0d;
+}
+
+button:hover {
+   background-color:#0457a0 ;
+   color: blueviolet;
+   cursor:pointer;
+
+}
+button{
+margin: 30px;
+   padding: 20px;
+}
+
+section{
+margin: 30px;
+
+}
+head{
+
+   margin: 300;
+}
+
+
