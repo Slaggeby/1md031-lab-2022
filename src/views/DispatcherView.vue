@@ -7,7 +7,7 @@
             Order:{{name}}Amount:{{amount}}
             <div v-bind:style="{color:'gray' }"> 
               {{order.customer.name}}
-              ({{order.customer.email}}, {{order.customer.payment}}, {{order.customer.gender}})
+              ({{order.customer.mail}}, {{order.customer.payment}}, {{order.customer.gender}})
 
             </div>
 

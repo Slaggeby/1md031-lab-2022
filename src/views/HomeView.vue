@@ -228,13 +228,13 @@ location: { x: 0,
     placeOrder: function(){
 console.log("Placing Order:", this.formdata)
 socket.emit("addOrder", { orderId: this.getOrderNumber(),
-                                details: { x: this.location.clientX,
-                                           y: this.location.clientY },
+                                details: { x: this.location.x,
+                                           y: this.location.y },
                                 orderItems: [this.orderedBurgers],
                                 customer:{
                                   name: this.formdata.n,
                                   mail: this.formdata.em,
-                                  gender: this.formdata.gn,
+                                  gender: this.formdata.drone,
                                   payment: this.formdata.bs,
                                 }
                               
