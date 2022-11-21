@@ -1,0 +1,26 @@
+[
+  {
+    "name" : "The Standard",
+     "url" : "istockphoto-927593762-612x612.jpg",
+    "kCal" : 44,
+    "lactose" : true,
+    "gluten" : true
+   
+  },
+  {
+    "name": "The Living",
+    "url": "istockphoto-1277712627-1024x1024.jpg",
+    "kCal": 102,
+    "lactose": true,
+    "gluten": false
+    
+  },
+  {
+    "name": "The Sweet",
+    "url": "semlor.jpg",
+    "kCal": 0,
+    "lactose": false,
+    "gluten": false
+    
+  }
+]

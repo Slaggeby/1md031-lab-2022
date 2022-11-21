@@ -1,23 +1,23 @@
-@import url("reset.css");
+/*@import url("reset.css");*/
 
 
 
 @font-face {
-    font-family: Spongeboy;
-    src: url("SpongeboyMeBob.ttf");
+  font-family: Spongeboy;
+  src: url("SpongeboyMeBob.ttf");
 }
-  
+
 
 body {
-    font-family: "Spongeboy";
-    font-size: 12pt;
-color: #fff56c ;
-    background-image: url("wp2636472-background-spongebob.jpg");
-background-attachment: fixed;
- }
+  font-family: "Spongeboy";
+  font-size: 12pt;
+  color: #fff56c ;
+  background-image: url("wp2636472-background-spongebob.jpg");
+  background-attachment: fixed;
+}
 
 
-    
+
 .Allergier {
    color: #fff56c;
 }
@@ -30,10 +30,10 @@ background-attachment: fixed;
 header{
    width: 95%;
    height: 10%;
-margin:  20px 20px 20px 20px;
-padding:  20px 20px 20px 20px;
-display: inline-block;
-position: absolute 20px;
+   margin:  20px 20px 20px 20px;
+   padding:  20px 20px 20px 20px;
+   display: inline-block;
+   position: absolute 20px;
 
 
 
@@ -42,17 +42,17 @@ position: absolute 20px;
 
 header > h1{
    position:  absolute;
-margin-top: -120px;
-padding: 50px 50px;
-color: #fff56c;
+   margin-top: -120px;
+   padding: 50px 50px;
+   color: #fff56c;
 
 
 }
 
 .wrapper{
-display: grid;
-     grid-gap: 10px;
-     grid-template-columns: 33% 33% 33%;
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: 33% 33% 33%;
 }
 
 
@@ -61,20 +61,20 @@ display: grid;
 .Headerbild{
 
 
-width: 100%;
-height: 100px;
-object-fit: fill;
-opacity: 0.8;
+   width: 100%;
+   height: 100px;
+   object-fit: fill;
+   opacity: 0.8;
 }
 
 
 
 .divs{
-margin:  10px 20px 20px 20px;
-padding:  20px 20px 20px 20px;
-display: inline-block;
-border: 10px solid #fff56c;
-background-color: #26b9c8;
+   margin:  10px 20px 20px 20px;
+   padding:  20px 20px 20px 20px;
+   display: inline-block;
+   border: 10px solid #fff56c;
+   background-color: #26b9c8;
 
 }
 
@@ -98,12 +98,12 @@ button:hover {
 
 }
 button{
-margin: 30px;
+   margin: 30px;
    padding: 20px;
 }
 
 section{
-margin: 30px;
+   margin: 30px;
 
 }
 head{
@@ -111,4 +111,6 @@ head{
    margin: 300;
 }
 
-
+.productpic{
+   style="width: 100%;
+}
